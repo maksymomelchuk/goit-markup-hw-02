@@ -18,16 +18,16 @@
     <title>Портфоліо</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- Flex container -->
-      <section class="container container-header">
+      <div class="container container-header">
         <!-- Logo -->
         <a href="./index.html" class="logo link-accent"
           >Web<span class="logo-header">Studio</span></a
         >
         <!-- Navigation bar -->
         <nav>
-          <ul class="navigation">
+          <ul class="navigation list">
             <li class="navigation-item">
               <a class="link-accent" href="./index.html">Студія</a>
             </li>
@@ -46,111 +46,136 @@
           >
           <a class="link-accent" href="tel:+380961111111">+38 096 111 11 11</a>
         </div>
-      </section>
+      </div>
     </header>
     <main>
-      <section class="container">
-        <ul class="buttons">
-          <li><button class="button" type="button">Все</button></li>
-          <li><button class="button" type="button">Веб-сайти</button></li>
-          <li><button class="button" type="button">Додатки</button></li>
-          <li><button class="button" type="button">Дизайн</button></li>
-          <li><button class="button" type="button">Маркетинг</button></li>
-        </ul>
-      </section>
-      <section class="container">
-        <ul class="projects">
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio1.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name">Проєкт Prime</h1>
-            <p>Маркетинг</p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio2.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name">Постер New Orlean vs Golden Star</h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio3.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio4.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio5.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio6.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio7.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio8.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-          <li class="project-item">
-            <img
-              src="./images/portfolio/imgportfolio9.jpg"
-              alt="project photo"
-              width="370"
-              height="294"
-            />
-            <h1 class="project-name"></h1>
-            <p></p>
-          </li>
-        </ul>
+      <section class="section">
+        <div class="container">
+          <!-- Hidden header -->
+          <h1 class="hidden">Наші проєкти</h1>
+          <!-- Buttons -->
+          <ul class="buttons list">
+            <li><button class="button" type="button">Все</button></li>
+            <li><button class="button" type="button">Веб-сайти</button></li>
+            <li><button class="button" type="button">Додатки</button></li>
+            <li><button class="button" type="button">Дизайн</button></li>
+            <li><button class="button" type="button">Маркетинг</button></li>
+          </ul>
+          <!-- Our projects -->
+          <ul class="projects list">
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio1.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+
+              <div class="project-text">
+                <h2 class="project-text-header">Технокряк</h2>
+                <p class="project-text-p">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio2.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="project-text-p">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio3.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Ресторан Seafood</h2>
+                <p class="project-text-p">Додаток</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio4.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Проєкт Prime</h2>
+                <p class="project-text-p">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio5.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Проєкт Boxes</h2>
+                <p class="project-text-p">Додаток</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio6.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Inspiration has no Borders</h2>
+                <p class="project-text-p">Веб-сайт</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio7.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Видання Limited Edition</h2>
+                <p class="project-text-p">Дизайн</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio8.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Проект LAB</h2>
+                <p class="project-text-p">Маркетинг</p>
+              </div>
+            </li>
+            <li class="project-item">
+              <img
+                src="./images/portfolio/imgportfolio9.jpg"
+                alt="project photo"
+                width="370"
+                height="294"
+              />
+              <div class="project-text">
+                <h2 class="project-text-header">Growing Business</h2>
+                <p class="project-text-p">Додаток</p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer>
@@ -162,7 +187,7 @@
         >
         <!-- Footer contacts -->
         <address>
-          <ul class="footer-contacts">
+          <ul class="footer-contacts list">
             <li>
               <a
                 class="street underline"
@@ -173,12 +198,12 @@
               >
             </li>
             <li>
-              <a class="email-phone underline" href="mailto:info@example.com"
+              <a class="email-phone link-accent" href="mailto:info@example.com"
                 >info@example.com</a
               >
             </li>
             <li>
-              <a class="email-phone underline" href="tel:+38991111111"
+              <a class="email-phone link-accent" href="tel:+38991111111"
                 >+38 099 111 11 11</a
               >
             </li>
