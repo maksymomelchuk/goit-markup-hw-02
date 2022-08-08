@@ -225,9 +225,9 @@ ul {
   height: 294px;
 }
 
-.job-pictures li:hover {
+/* .job-pictures li:hover {
   outline: 3px solid var(--color-accent);
-}
+} */
 
 .job-pictures li:not(:last-child) {
   margin-right: 30px;
@@ -318,8 +318,10 @@ ul {
   flex-wrap: wrap;
 }
 
-.project-item {
-  outline: 1px solid #eeeeee;
+.project-item img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .project-item:not(:nth-child(n + 7)) {
@@ -332,6 +334,7 @@ ul {
 
 .project-text {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .project-text-header {
   font-weight: 700;
